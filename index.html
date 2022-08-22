@@ -12,7 +12,6 @@
 
     <!-- LINKS -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- <script src="js/script.js"></script> -->
 
 </head>
 <body>
@@ -31,9 +30,9 @@
 
         <div class="content">
             <div class="textBox">
-                <h2>It's not just Coffe<br> it's <span>Starbucks</span> </h2>
+                <h2>It's not just Coffe<br> it's <span class="banner-title">Starbucks</span> </h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti praesentium pariatur similique dignissimos deleniti qui nisi quaerat ipsa ullam ex, voluptatem ducimus cum eveniet provident, illum cupiditate quasi vero sequi?</p>
-                <a href="#">Learn more</a>
+                <a class="btn-color" href="#">Learn more</a>
             </div>
             <div class="imgBox">
                 <img src="images/img1.png" class="starbucks" alt="">
@@ -53,17 +52,110 @@
     
     </section>
 
-    <script type="text/javascript">
-        function imgSlider(anything) {
-            document.querySelector('.starbucks').src = anything;
-        }
+    <div class="container-cafe">
+        <div class="circle-2"></div>
+        <div class="col-cafe-img">
+            <img class="img-cafe" src="images/café-graos.jpg" alt="">
+        </div>
+        <div class="col-cafe-color">
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quidem accusamus quaerat possimus mollitia ad molestiae aliquid labore? Id quaerat ad nobis ea ex ipsa dignissimos! Facilis cum minus est. <br> <br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, accusamus cupiditate mollitia cumque quidem rem, incidunt officiis molestias voluptates ex perferendis aut placeat illo libero optio ab facilis suscipit unde?</p>
+            <a class="btn-green" href="#">Learn more</a>
+        </div>
+    </div>
 
-        function changeCircleColor(color){
-            const circle = document.querySelector('.circle');
-            circle.style.background = color;
-        }
+    <div class="sec-title">
+        <h2 class="title">Diferenciais</h2>
+    </div>
 
-    </script>
+    <div class="icons line1">
+        <div>
+            <img class="icon-img" src="images/icons/icon1.png" alt="">
+            <h3>Icone 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet quia non eum corrupti </p>
+        </div>
+        <div>
+            <img class="icon-img" src="images/icons/icon2.png" alt="">
+            <h3>Icone 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet quia non eum corrupti </p>
+        </div>
+        <div>
+            <img class="icon-img" src="images/icons/icon3.png" alt=""><h3>Icone 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet quia non eum corrupti </p>
+        </div>
+    </div>
+
+    <div class="icons line2">
+        <div>
+            <img class="icon-img" src="images/icons/icon4.png" alt="">
+            <h3>Icone 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet quia non eum corrupti </p>
+        </div>
+        <div>
+            <img class="icon-img" src="images/icons/icon5.png" alt="">
+            <h3>Icone 5</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet quia non eum corrupti </p>
+        </div>
+        <div>
+            <img class="icon-img" src="images/icons/icon6.png" alt=""><h3>Icone 6</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet quia non eum corrupti </p>
+        </div>
+    </div>
+
+    <div class="cta">
+        <div class="cta-text">
+            <h2>Inscreva-se em <br> nossa Newsletter</h2>
+        </div>
+        <div class="cta-form">
+            <form action="">
+                <input placeholder="Digite seu nome" type="text">
+                <input placeholder="Digite seu e-mail" type="e-mail">
+                <input class="btn-submit" value="Inscrever-se" type="submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="sec-coffe">
+        <div class="coffe-text">
+            <h2>Css Coffe animation</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid nemo molestiae id autem rem perferendis ducimus praesentium, a, hic quae? Quam esse dolores unde magni est nobis non repellendus!
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid nemo molestiae id autem rem perferendis ducimus praesentium, a, hic quae? Quam esse dolores unde magni est nobis non repellendus!
+            </p>
+        </div>
+        <div>
+            <img class="coffe" src="images/coffe.png" alt="">
+        </div>
+    </div>
+
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7314.594188319254!2d-46.66756363022458!3d-23.55777099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c92dd34887%3A0x20bc062ae9772d43!2sStarbucks!5e0!3m2!1spt-BR!2sbr!4v1661195408725!5m2!1spt-BR!2sbr" width="1200" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    
+    
+
+    <footer>
+        <img class="logo-footer" src="images/logo.png" alt="">
+        <hr class="line">
+        <ul>
+            <a href="#"><li>Starbucks.com</li></a>
+            <a href="#"><li>Carreiras</li></a>
+            <a href="#"><li>Reserva</li></a>
+            <a href="#"><li>Home</li></a>
+        </ul>
+        <div class="social">
+            <img src="images/facebook.png" alt="">
+            <img src="images/instagram.png" alt="">
+            <img src="images/twitter.png" alt="">
+        </div>
+        <p>Política de Privacidade | Termos & Condições</p>
+        <p class="credit">© 2022 Starbucks Corporation. Todos os direitos reservados.</p>
+    </footer>
+    
+
+    <script src="js/script.js"></script>
     
 </body>
 </html>

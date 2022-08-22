@@ -7,6 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* MENU  */
+
 section {
     position: relative;
     width: 100%;
@@ -55,6 +57,8 @@ header ul li a:hover {
     color: green;
 }
 
+/* BANNER  */
+
 .content {
     position: relative;
     display: flex;
@@ -79,6 +83,7 @@ header ul li a:hover {
     color: #017143;
     font-size: 1.2em;
     font-weight: 900;
+    transition: all 1s;
 }
 
 .textBox p {
@@ -95,6 +100,11 @@ header ul li a:hover {
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
+    transition: all 0.5s;
+}
+
+.textBox a:hover {
+    transform: scale(0.9);
 }
 
 .imgBox {
@@ -108,7 +118,10 @@ header ul li a:hover {
 
 .imgBox img {
     max-width: 340px;
-    transition: all 5s;
+}
+
+.starbucks {
+    transition: all 1s;
 }
 
 .thumb {
@@ -165,5 +178,267 @@ header ul li a:hover {
     width: 100%;
     height: 100%;
     background-color: #017143;
-    clip-path: circle(600px at right 800px);
+    clip-path: circle(550px at right 800px);
+    transition: all 1s;
+}
+
+/* Section ABOUT US  */
+
+.container-cafe {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.img-cafe {
+    width: 100%;
+    height: 100%;
+}
+
+.col-cafe-color {
+    background-color: #017143;
+    padding: 50px;
+    flex: 1;
+    margin-left: -20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    transition: all 1s;
+}
+
+.col-cafe-color h2 {
+    font-size: 44px;
+}
+
+.col-cafe-img {
+    flex: 2;
+}
+
+.btn-green {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #fff;
+    color: #017143;
+    border-radius: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    width: 150px;
+    transition: all 0.5s;
+}
+
+.btn-green:hover {
+    transform: scale(0.9);
+}
+
+
+/* ICONS  */
+
+.sec-title {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.icons div {
+    text-align: center;
+}
+
+.icons h3 {
+    font-size: 26px;
+}
+
+.icon-img {
+    width: 250px;
+    transition: all 1s;
+}
+
+.icon-img:hover {
+    transform: scale(0.8);
+}
+
+
+.line1 {
+    padding-top: 60px;
+}
+
+.line2 {
+    padding-bottom: 60px;
+}
+
+
+/* CTA - Home */
+.cta {
+    width: 1200px;
+    background-color: #017143;
+    margin: auto;
+    padding: 30px;
+    /* border-radius: 999px; */
+    display: flex;
+    margin-top: 60px;
+    transition: all 1s;
+}
+
+.cta-text {
+    flex: 1;
+    color: white;
+    padding-left: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.cta-form {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-form form {
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-form form input {
+    padding: 10px;
+    /* border-radius: 25px; */
+    border: none;
+    margin: 5px;
+    outline: none;
+    width: 220px;
+}
+
+/* COFFFE */
+
+.sec-coffe {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.coffe-text {
+    background-color: #017143;
+    padding: 100px 100px;
+    color: white;
+    transition: all 1s;
+}
+
+.coffe-text h2 {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.sec-coffe div {
+    flex: 1;
+}
+
+.coffe {
+    width: 700px;
+    transition: all 4s;
+    animation-name: bounce;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+    /* Animação ida e volta */
+    animation-direction: alternate-reverse;
+}
+
+/* Animação do café */
+
+@keyframes bounce {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(18deg);
+    }
+    
+}
+
+/* MAPS */
+.maps {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #017143;
+    width: 1200px;
+    padding: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.logo-footer {
+    width: 80px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul a {
+    text-decoration: none;
+}
+
+footer ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.line {
+    margin-top: -40px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    margin: 10px 20px;
+    transform: scale(0.6);
+}
+
+.credit {
+    color: grey;
 }
